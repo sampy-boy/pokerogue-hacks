@@ -1,21 +1,21 @@
-Egghack:
+// Egghack
 
 this.scene.gameData.eggs.forEach(function(egg) {
 	egg.tier = 3;
 	egg.hatchWaves = 1;
 });
 
-Voucher hack:
+// Voucher hack
 
 this.scene.gameData.voucherCounts.forEach(function(voucher) {
 	voucher = 999;
 });
 
-Money hack:
+// Money hack
 
 this.scene.money = 1000000000000000;
 
-Party hack:
+// Party hack
 
 this.scene.party.forEach(function(member) {
 	member.hp = 9999;
