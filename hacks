@@ -1,0 +1,37 @@
+Egghack:
+
+this.scene.gameData.eggs.forEach(function(egg) {
+	egg.tier = 3;
+	egg.hatchWaves = 1;
+});
+
+Voucher hack:
+
+this.scene.gameData.voucherCounts.forEach(function(voucher) {
+	voucher = 999;
+});
+
+Money hack:
+
+this.scene.money = 1000000000000000;
+
+Party hack:
+
+this.scene.party.forEach(function(member) {
+	member.hp = 9999;
+	member.level = 2000;
+	member.pokeball = 4;
+	member.shiny = true;
+	member.pokerus = true;
+
+	member.ivs.forEach(function(iv) {
+		iv = 31;
+	});
+	
+	member.stats.forEach(function(stat) {
+		stat = 999;
+	});
+	
+	member.luck = 999;
+});
+
