@@ -5,12 +5,6 @@ this.scene.gameData.eggs.forEach(function(egg) {
 	egg.hatchWaves = 1;
 });
 
-// Voucher hack
-
-this.scene.gameData.voucherCounts.forEach(function(voucher) {
-	voucher = 999;
-});
-
 // Money hack
 
 this.scene.money = 1000000000000000;
