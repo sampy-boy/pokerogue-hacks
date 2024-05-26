@@ -1,7 +1,7 @@
 // Egghack
 
 this.scene.gameData.eggs.forEach(function(egg) {
-	egg.tier = 3;
+	egg.tier = 2;
 	egg.hatchWaves = 1;
 });
 
